@@ -1,0 +1,11 @@
+.score {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 7vh;
+  color: var(--foreground-color);
+  text-align: center;
+  opacity: 0.5;
+  flex-grow: 1;
+  flex-basis: 0;
+}

@@ -1,0 +1,7 @@
+export const BALL_INITIAL_VELOCITY = 0.025
+
+export const COMPUTER_PADDLE_SPEED = 0.02
+
+export const GAME_START_TIMER_DELAY = 300
+export const GAME_START_TIMER = 3000
+

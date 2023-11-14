@@ -1,0 +1,16 @@
+data: {
+denem2-backend-1   |     id: 91415,
+denem2-backend-1   |     email: 'cyuzbas@student.codam.nl',
+denem2-backend-1   |     login: 'cyuzbas',
+denem2-backend-1   |     first_name: 'Cicek',
+denem2-backend-1   |     last_name: 'Yuzbas',
+denem2-backend-1   |     usual_full_name: 'Cicek Yuzbas',
+denem2-backend-1   |     usual_first_name: null,
+denem2-backend-1   |     url: 'https://api.intra.42.fr/v2/user/cyuzbas',
+denem2-backend-1   |     phone: 'hidden',
+denem2-backend-1   |     displayname: 'Cicek Yuzbas',
+denem2-backend-1   |     kind: 'student',
+denem2-backend-1   |     image: {
+denem2-backend-1   |       link: 'https://cdn.intra.42.fr/user/c6f3033c39f4f1753b163e6655505d7d/cyuzbas.jpg',
+denem2-backend-1   |       versions: [Object]
+denem2-backend-1   |     },

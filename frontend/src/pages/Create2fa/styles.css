@@ -1,0 +1,61 @@
+.Auth2faPage {
+	background: rgb(3, 23, 35);
+    background: -moz-linear-gradient(top, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    background: linear-gradient(to bottom, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=0 );
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+ }
+   
+ .Auth2faContainer{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px;
+	color: rgb(75, 94, 107);
+	
+ }
+
+ .QRimage {
+	width: 250px;
+	margin: 50px;
+	
+ }
+
+ .ScannedCode {
+	display: flex;
+	flex-direction: row;
+ }
+
+ .ScannedCodeInput{
+	width: 250px;
+	padding: 12px;
+	background-color:rgba(178,225,255,1);
+	border: rgba(178,225,255,1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+ .Send2faButton {
+	background: rgb(3, 23, 35);
+    background: -moz-linear-gradient(top, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    background: linear-gradient(to bottom, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=0 );
+	box-shadow: 0 0 0px rgb(88, 110, 124, 0.2);
+	border: solid 1px  rgb(88, 110, 124, 0.8);
+	
+ }
+
+ .Send2fa {
+	color: rgb(88, 110, 124);
+	margin: 10px;
+  }
+
+  .Send2fa:hover {
+	color: white;
+  }

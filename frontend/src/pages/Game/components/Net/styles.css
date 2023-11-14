@@ -1,0 +1,9 @@
+.net {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 100%;
+    background-image: repeating-linear-gradient(to bottom, transparent, transparent 4px, var(--background-color) 4px, var(--background-color) 10px);
+}

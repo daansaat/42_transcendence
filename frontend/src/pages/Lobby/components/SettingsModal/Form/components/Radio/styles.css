@@ -1,0 +1,11 @@
+.form .radio {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form .radio label,
+.form .radio input {
+  cursor: pointer;
+}

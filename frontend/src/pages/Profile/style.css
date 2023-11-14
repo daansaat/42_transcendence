@@ -1,0 +1,216 @@
+
+.PageProfile{
+    display: grid; 
+    height: 100vh;
+    gap: 10px;
+    
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    
+    grid-template-areas: 
+     'label0 label0 label0 label0 label0 label0'
+     'label1 label1 label2 label2 label3 label3'
+     'label1 label1 label2 label2 label3 label3';
+ }
+
+ .item {
+    background: rgb(3, 23, 35);
+    background: -moz-linear-gradient(top, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    background: linear-gradient(to bottom, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=0 );
+ }
+   
+ .ProfileSection {
+    margin-right: 10px;
+    grid-area: label0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+ }
+
+ .ProfileInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(75, 94, 107);
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ .imageClass {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+   margin-top: 30px;
+   margin-right: 70px;
+   margin-left: 60px;
+  }
+  
+  .imageClass img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+ .UserName {
+    margin-top: 15px;
+ }
+
+ .ProfileStatusInfo{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .ProfileRankInfo {
+    /* background-color: rgb(88, 110, 124); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 50%;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    /* grid-area: profile1; */
+    border-right: 2px solid rgb(75, 94, 107, 0.2);
+    border-left: 2px solid rgb(75, 94, 107, 0.2);
+ }
+
+ .ProfileRankInfoLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    color: rgb(75, 94, 107);
+
+ }
+
+ .bi-star, .bi-chevron-double-up, .bi-circle-fill {
+    color: rgb(75, 94, 107);
+    /* color: rgb(88, 110, 124); */
+    /* color: rgb(178,225,255); */
+    margin-right: 20px;
+ }
+
+ .UserScore, .UserRank, .UserStatus {
+    color: rgb(75, 94, 107);
+    /* color: rgb(88, 110, 124); */
+    /* color: rgb(178,225,255); */
+    margin-top: 10px;
+ }
+
+ .ProfileMatchStats {
+    /* grid-area: profile2;  */
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    /* height: 100%;*/
+    width: 100%; 
+    color: rgb(75, 94, 107);
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    /* margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px; */
+
+ }
+
+ #MatchStatsTitle {
+ 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 2px dashed rgb(109, 164, 196); */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    
+ }
+ #MatchStatsWin {
+ 
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 2;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    
+ }
+ #MatchStatsLoss {
+ 
+    grid-row-start: 2;
+    grid-column-start: 2;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+ }
+
+ .pongIcon {
+    height: 50px;
+    margin: 20px;
+    opacity: 0.76;
+ }
+
+ .reverse {
+    transform: scaleX(-1);
+ }
+
+ .Friend-UsersSection {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding: 15px;
+	overflow: hidden;
+}
+
+ .LeaderBoard-MatchHistorySection {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding: 15px;
+	overflow: hidden;
+
+}
+
+ .title-box {
+	width: 250px;
+	margin: 15px auto;
+	position: relative;
+	top: 20px;
+	box-shadow: 0 0 20px 5px #fff;
+	border-radius: 30px;
+}
+
+ .ProfileComponentTitle {
+	padding: 10px 30px;
+	background: transparent;
+	border: 0;
+	position: relative;
+	color: rgb(43, 45, 46);
+	text-align: center;
+	font-weight: 500;
+}

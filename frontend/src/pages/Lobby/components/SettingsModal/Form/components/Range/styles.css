@@ -1,0 +1,9 @@
+.form .range {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.form .range input {
+  width: 100%;
+}

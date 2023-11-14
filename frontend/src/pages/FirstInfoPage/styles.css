@@ -1,0 +1,87 @@
+.FirstInfoPageContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgb(88, 110, 124);
+ }
+   
+ .FirstInfoPageContainer{
+	z-index: 1;
+	background-color: rgb(88, 110, 124);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+ }
+
+ .UploadAvatar{
+	background-color: white;
+	border:solid 2px rgb(88, 110, 124, 0.8);
+	margin-bottom: 20px;
+	color: rgb(75, 94, 107);
+ }
+
+ .UploadAvatar::file-selector-button {
+	/* display: none; */
+	background-color: rgb(88, 110, 124, 0.8);
+	border:solid 1px rgb(88, 110, 124, 0.8);
+	color: rgb(178,225,255);
+	margin-right: 55px;
+  }
+
+ .ChangeAvatarLine {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+
+ }
+
+ .FirstSubmitButton{
+	/* display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center; */
+	background-color: rgb(88, 110, 124, 0.8);
+	color: rgb(178,225,255);
+	/* padding: 20px; */
+	font-weight: bold;
+	/* margin-bottom: 50px; */
+ }
+
+ .bi-upload, .bi-pencil-square, .bi-images {
+	margin-right: 20px;
+ }
+ 
+
+ .imageContainer {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 50px 100px 50px 100px;
+  }
+  
+  .imageContainer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+
+  .EnterName {
+	width: 200px;
+ }
+
+  .NameInput {
+	width: 200px;
+	height: 54px;
+	padding: 10px;
+ }
+
+  .EditNameButton {
+	padding: 0px 20px 0px 20px;
+	margin: 20px;
+	margin-left: 40px;
+  }

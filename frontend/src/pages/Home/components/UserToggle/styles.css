@@ -1,0 +1,76 @@
+.Friend-UsersSection {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.button-box {
+	width: 250px;
+	margin: 15px auto;
+	position: relative;
+	top: 20px;
+	box-shadow: 0 0 20px 5px #fff;
+	border-radius: 30px;
+}
+
+.toggle-button {
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	position: relative;
+	color: rgb(43, 45, 46);
+	font-weight: 500;
+
+}
+
+#btn-color {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(to right, #396478,rgb(228, 234, 234));
+	border-radius: 30px ;
+	transition: 0.5s;
+}
+
+#friends-btn-color {
+	top: 0;
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(to right, #396478,rgb(228, 234, 234));
+	border-radius: 30px ;
+	transition: 0.5s;
+	left: 125px;
+}
+
+#AllUsers{
+	padding-top: 15px;
+	padding-bottom: 160px;
+	height: 100%;
+	overflow-x: scroll;
+	top: 110px;
+	position: absolute;
+	width: 100%;
+	transition: 0.5s;
+
+}
+
+.fake-all-users{
+	margin: 10px;
+	width: 90%;
+	background: transparent;
+
+    height: 60px;
+    display: flex;
+
+    background: rgb(207,231,250);
+    background: -moz-linear-gradient(top, rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%);
+    background: linear-gradient(to bottom, rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 );  
+ }

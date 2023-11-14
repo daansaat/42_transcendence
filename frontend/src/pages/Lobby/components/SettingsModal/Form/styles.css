@@ -1,0 +1,31 @@
+.settings-form {
+  /* width: 40%; */
+  /* margin-top: 64px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 999;
+}
+
+.settings-form .form {
+  width: 100%;
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-form section {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.settings-form section > div {
+  width: 130%;
+  display: flex;
+  justify-content: space-between;
+}

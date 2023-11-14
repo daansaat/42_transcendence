@@ -1,0 +1,85 @@
+.navbar { 
+background-color: rgb(88, 110, 124); 
+}
+
+.icon{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}	
+
+.brand{
+    font-size: x-large;
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.form-center {
+    position: absolute !important;
+    left: 20%;
+    right: 20%;
+}
+
+.userNamePhotoCont{
+    display: flex;
+    flex-direction: row;
+}
+
+.userNameNavbar{
+padding-top: 7px;
+}
+
+.imageClassNavbar {
+	width: 35px;
+	height: 35px;
+    margin-right: 15px; 
+    margin-left: 15px; 
+	border-radius: 50%;
+	overflow: hidden;
+
+}
+
+.imageClassNavbar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.friendsRequestButton:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.friend-drop-down-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 40px;
+} 
+
+.friend-drop-down-container ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: calc(100% + 5px);
+    min-width: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+    border-radius: 5px;
+    box-shadow: 0 0 5px #d4d4d4;
+}
+
+.friend-drop-down-container ul li{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(88, 110, 124); ;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 20px;
+    transition: background-color ease .2s;
+}
+

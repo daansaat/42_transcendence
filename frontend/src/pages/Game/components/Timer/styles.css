@@ -1,0 +1,36 @@
+.timer {
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.timer h1 {
+  font-size: 300px;
+  font-family: sans-serif;
+  color: var(--foreground-color);
+  user-select: none;
+}
+
+.rules {
+  color: var(--foreground-color);
+   border-radius: 20px;
+   border: 1px solid rgb(88, 110, 124, 0.);
+   background-color: var(--background-color);
+   font-size: 12px;
+   font-weight: bold;
+   padding: 12px 45px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   transition: transform 80ms ease-in;
+}

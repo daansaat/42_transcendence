@@ -1,0 +1,46 @@
+
+/* .FullPage {  
+    background-color: rgb(88, 110, 124);
+    display: flex;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  
+  .SideContent{
+	  width: 5%;
+    height: 90vh;
+  }
+  
+  .MainContent{
+    height: 90vh;
+    width: 95%;
+  } */
+  
+
+   .FullPage {  
+    background-color: rgb(88, 110, 124);
+    display: flex;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  
+  .SideContent{
+	  width: 5%;
+    height: 90vh;
+  }
+  
+
+  .MainContent{
+    height: 90vh;
+    width: 95%;
+  }
+
+  html {
+    background: rgb(88, 110, 124); 
+  }
+
+  body {
+    overflow: hidden;
+  }

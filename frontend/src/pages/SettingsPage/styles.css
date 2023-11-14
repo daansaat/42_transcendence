@@ -1,0 +1,141 @@
+.SettingsPageContent {
+	background: rgb(3, 23, 35);
+    background: -moz-linear-gradient(top, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    background: linear-gradient(to bottom, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=0 );
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+ }
+   
+ .SettingsPageContainer{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	display: grid; 
+ 
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	
+	grid-template-areas: 
+	 'label0 label0 label1 label1 label1'
+	 'label0 label0 label1 label1 label1';
+	
+	gap: 0px;
+ }
+
+ .ChangePP {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	grid-area: label0;
+	margin-left: 50px;
+	
+ }
+
+ .UploadPP{
+	background-color: white;
+	border:solid 2px rgb(88, 110, 124, 0.8);
+	margin-bottom: 20px;
+	color: rgb(75, 94, 107);
+ }
+
+ .UploadPP::file-selector-button {
+	/* display: none; */
+	background-color: rgb(88, 110, 124, 0.8);
+	border:solid 1px rgb(88, 110, 124, 0.8);
+	color: rgb(178,225,255);
+	margin-right: 55px;
+  }
+
+ .ChangePPLine {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+
+ }
+
+ .SubmitButton{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+	background-color: rgb(88, 110, 124, 0.8);
+	color: rgb(178,225,255);
+	padding: 20px;
+	font-weight: bold;
+	margin-bottom: 50px;
+ }
+
+ .bi-upload, .bi-pencil-square, .bi-images {
+	margin-right: 20px;
+ }
+ 
+
+ .imageContainer {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 50px 100px 50px 100px;
+  }
+  
+  .imageContainer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .ChangeOthers {
+	display: flex;
+    flex-direction: column;
+	grid-area: label1;
+ }
+
+  .EditNameSettings {
+	display: flex;
+	flex-direction: row;
+	margin-left: 230px;
+	margin-top: 200px;
+ }
+
+  .EnterNameSettings {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+ }
+
+  .NameInput {
+	width: 200px;
+	height: 54px;
+	padding: 10px;
+ }
+
+  .Change2FA{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	margin-left: 230px;
+	margin-top: 20px;
+
+  }
+
+  .Info2fa {
+	color: rgb(75, 94, 107);
+	margin-left: 240px;
+	margin-top: 70px;
+  }
+  .bi-qr-code-scan {
+	margin-right: 20px;
+  }
+
+  .TwoFA {
+	width: 300px;
+	padding: 12px 20px 12px 20px;
+  }
+
+  .Edit {
+	padding: 10px 20px 10px 20px;
+  }
+

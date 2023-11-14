@@ -1,0 +1,109 @@
+#AllFriends{
+	padding-top: 15px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	overflow-x: scroll;
+	top: 110px;
+	transition: 0.5s;
+	padding-bottom: 160px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.FriendsSectionComponent {
+	width: 90%;
+	margin: 10px 0 10px 10px;
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+	color: rgb(75, 94, 107);
+  
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.imageClassFS {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: 5px;
+
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.imageClassFS img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.FriendsSectionUsername{
+	margin-left: 5px;
+	width: 100px;
+
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.FriendsSectionIntraname {
+	/* font-size: smaller; */
+	margin-left: 5px;
+	grid-column-start: 4;
+	grid-column-end: 6;
+}
+
+.FriendsSectionIntraname:hover{
+	text-decoration:underline;
+	cursor: pointer;
+	}
+
+	.FriendsOnlineDisplay {
+		grid-column-start: 6;
+		grid-column-end: 7;
+	
+		position: relative;
+		cursor: default;
+	}
+	
+	.indicatorGame{
+		position: absolute;
+		width: 60%;
+		margin-left: -40px;
+		text-align: center;
+		top: -25px;
+		left: 50%;
+		transform: translateX(-50%);
+		/* background-color: rgb(88, 110, 124);  */
+		color: rgb(88, 110, 124);
+		border-radius: 4px;
+		display: none;
+	}
+	
+	.indicatorNotGame{
+		position: absolute;
+		width: 60%;
+		margin-left: -40px;
+		text-align: center;
+		top: -25px;
+		left: 50%;
+		transform: translateX(-50%);
+		/* background-color: rgb(88, 110, 124);  */
+		color: rgb(88, 110, 124);
+		border-radius: 4px;
+		display: none;
+	}
+	
+	.FriendsOnlineDisplay:hover .indicatorGame{
+		display: block;
+	 }
+
+.NoUsersFound{
+	font-size: 20px;
+	margin: 20px 40px 20px 0px;
+	text-align: center;
+	color: rgb(75, 94, 107);
+}
